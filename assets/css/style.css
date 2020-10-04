@@ -868,7 +868,7 @@ p {
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
-  padding: 50px 30px;
+  padding: 50px 30px 20px;
   border: 2px solid transparent;
   border-radius: 8px; }
   @media (max-width: 767px) {
@@ -948,15 +948,18 @@ p {
       -o-transform: rotate(25deg);
       transform: rotate(25deg); } */
 
+.services-icon .shape{
+  height: 200px;
+}
+
 #features .services-content .social{
-  margin: 10px 0;
-  font-size: 2em;
+  margin: 20px 0;
+  font-size: 1.5em;
 }
 
 .single-services .social li{
   display: inline-block;
   margin-right: 30px;
-  
 }
 
 .single-services .social li a i{
