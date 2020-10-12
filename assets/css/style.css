@@ -29,10 +29,6 @@
 ===========================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,700|Lato:300,400,700&display=swap");
 
-html{
-  scroll-behavior: smooth;
-}
-
 body {
   font-family: "Lato", sans-serif;
   font-weight: normal;
@@ -116,7 +112,7 @@ p {
   margin: 0px; }
 
 .bg_cover {
-  margin-top: 100px;
+  margin-top: 70px;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -516,9 +512,11 @@ p {
   transition: all 0.3s ease-out 0s; }
 
 .sticky {
+  height: 70px;
   position: fixed;
   z-index: 99;
   background-color: #fff;
+  border-bottom: 3px solid purple;
   -webkit-box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
   box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
@@ -529,6 +527,7 @@ p {
   transition: all 0.3s ease-out 0s; }
   .sticky .navbar {
     padding: 10px 0; }
+  
 
 .navbar {
   padding: 25px 0;
@@ -926,7 +925,7 @@ p {
     .single-services .services-content .services-title a:hover {
       color: #361CC1; }
   .single-services .services-content .text {
-    margin-top: 30px; }
+    margin-top: 10px; }
     @media (max-width: 767px) {
       .single-services .services-content .text {
         margin-top: 20px; } }
@@ -957,8 +956,12 @@ p {
   height: 200px;
 }
 
-#features .services-content .social{
-  margin: 20px 0;
+.services-content h5{
+  font-style: italic;
+}
+
+#team .services-content .social{
+  margin: 10px 0;
   font-size: 1.5em;
 }
 
@@ -1348,17 +1351,16 @@ p {
 /*===== BACK TO TOP =====*/
 .back-to-top {
   font-size: 20px;
-  color: #fff;
+  color: purple;
   position: fixed;
   right: 20px;
   bottom: 20px;
   width: 40px;
   height: 40px;
   line-height: 40px;
+  border: 2px solid purple;
   border-radius: 5px;
-  background: -webkit-linear-gradient(left, #361cc1 0%, #2e82ef 100%);
-  background: -o-linear-gradient(left, #361cc1 0%, #2e82ef 100%);
-  background: linear-gradient(to right, #361cc1 0%, #2e82ef 100%);
+  background-color: white;
   text-align: center;
   z-index: 99;
   -webkit-transition: all 0.3s ease-out 0s;
