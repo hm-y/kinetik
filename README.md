@@ -10,3 +10,7 @@ spaces
 mobile
 clean code
 transfer to domain
+
+- news/media
+- products/features
+- investors

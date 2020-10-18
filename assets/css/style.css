@@ -975,6 +975,52 @@ p {
 }
 
 /*===========================
+      A.MEDIA 
+===========================*/
+
+#media-list {
+  max-height: 500px;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  box-shadow: 0 0 15px 10px purple;
+  direction: rtl;
+}
+
+#media-list .readMore{
+  font-style: italic;
+  text-decoration: underline;
+}
+
+/* width */
+#media-list::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+#media-list::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+#media-list::-webkit-scrollbar-thumb {
+  background: lightgray;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+#media-list::-webkit-scrollbar-thumb:hover {
+  background: gray;
+}
+
+#media-list .list-group-item {
+  direction: ltr;
+}
+
+#media .section-title{
+  direction: rtl;
+}
+
+/*===========================
       05.ABOUT css 
 ===========================*/
 .about-area {
