@@ -789,8 +789,6 @@ p {
   .header-hero-content .header-sub-title {
     font-size: 28px;
     font-weight: 300;
-    text-decoration: underline;
-    text-decoration-color: purple;
     color: #fff; }
     @media (max-width: 767px) {
       .header-hero-content .header-sub-title {
@@ -872,9 +870,14 @@ p {
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
-  padding: 50px 30px 20px;
+  padding: 20px;
   border: 2px solid transparent;
   border-radius: 8px; }
+
+  .single-services .services-icon img{
+    border-radius: 25px;
+  }
+
   @media (max-width: 767px) {
     .single-services {
       padding: 20px 20px 30px; } }
@@ -907,23 +910,7 @@ p {
       transform: translate(-50%, -50%);
       font-size: 34px;
       color: #fff; }
-  .single-services .services-content .services-title a {
-    font-size: 26px;
-    font-weight: 700;
-    color: #2E2E2E;
-    -webkit-transition: all 0.3s ease-out 0s;
-    -moz-transition: all 0.3s ease-out 0s;
-    -ms-transition: all 0.3s ease-out 0s;
-    -o-transition: all 0.3s ease-out 0s;
-    transition: all 0.3s ease-out 0s; }
-    @media only screen and (min-width: 992px) and (max-width: 1199px) {
-      .single-services .services-content .services-title a {
-        font-size: 24px; } }
-    @media (max-width: 767px) {
-      .single-services .services-content .services-title a {
-        font-size: 20px; } }
-    .single-services .services-content .services-title a:hover {
-      color: #361CC1; }
+
   .single-services .services-content .text {
     margin-top: 10px; }
     @media (max-width: 767px) {
@@ -953,25 +940,20 @@ p {
       transform: rotate(25deg); } */
 
 .services-icon .shape{
-  height: 200px;
+  height: 300px;
 }
 
 .services-content h5{
   font-style: italic;
 }
 
-#team .services-content .social{
-  margin: 10px 0;
-  font-size: 1.5em;
-}
-
-.single-services .social li{
-  display: inline-block;
-  margin-right: 30px;
-}
-
-.single-services .social li a i{
+.single-services .services-title a{
   color: purple;
+  font-size: 36px;
+}
+
+.services-content {
+  text-align: left !important;
 }
 
 /*===========================
