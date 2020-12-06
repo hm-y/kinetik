@@ -1051,6 +1051,11 @@ p {
     .about-content .main-btn:hover {
       background-position: right center; }
 
+.about-image img{
+  width: 440px;
+  border-radius: 25px;
+}
+
 /*===========================
     06.VIDEO COUNTER css 
 ===========================*/
