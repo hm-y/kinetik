@@ -1301,6 +1301,13 @@ p {
 .footer-widget {
   padding-top: 50px; }
 
+.footer-widget .card{
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  border: none;
+}
+
 .footer-about .logo img {
   width: 160px; }
 
