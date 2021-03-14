@@ -1,3 +1,2 @@
 # Kinetik Therapeutics
 
-abc
